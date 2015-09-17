@@ -1,8 +1,16 @@
 # objglob
 Run glob-like patterns against JavaScript objects
 
+A simple recursive wrapper around
 https://github.com/isaacs/minimatch
-https://github.com/jonschlinkert/glob-object
+
+## Use
+
+Like this
+```javascript
+var filter = require('objglob').filter;
+var result = filter(['pattern/**', 'globs'], inputObject);
+```
 
 The objective is to take something like this:
 

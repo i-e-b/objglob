@@ -1,6 +1,6 @@
 {
   "name": "objglob",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run glob-like patterns against JavaScript objects",
   "main": "index.js",
   "scripts": {
