@@ -1,0 +1,32 @@
+{
+  "name": "objglob",
+  "version": "0.0.1",
+  "description": "Run glob-like patterns against JavaScript objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-e-b/objglob.git"
+  },
+  "keywords": [
+    "object",
+    "tree",
+    "query",
+    "transform"
+  ],
+  "author": "ieb",
+  "license": "BSD3",
+  "bugs": {
+    "url": "https://github.com/i-e-b/objglob/issues"
+  },
+  "homepage": "https://github.com/i-e-b/objglob",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {
+    "minimatch": "^2.0.10"
+  }
+}
